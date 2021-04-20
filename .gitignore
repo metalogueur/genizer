@@ -1,0 +1,12 @@
+# Folders to ignore
+.idea/
+.ipynb_checkpoints/
+chapter_01/
+chapter_02/
+chapter_03/
+examples/
+test_files/
+
+# Files to ignore
+*.ipynb
+*.xlsx
