@@ -3,3 +3,4 @@ spacy>=3.0.5
 numpy>=1.19.4
 pandas>=1.2.3
 progress>=1.5
+pdfminer.six>=20201018
