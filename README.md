@@ -4,6 +4,10 @@ This one-off script is used to extract text from a directory's PDF files
 and parse it in order to have individual sentences listed in an Excel spreadsheet
 with other file data.
 
+It was developed in order to help [Professor Nadia Genest](https://www.hec.ca/profs/nadia.genest.html) gather information for
+her _[The Quality of Voluntary Tax Disclosure](https://dx.doi.org/10.2139/ssrn.4088553)_
+research paper.
+
 ## Installation
 Python 3.8 and over is required to run this script. It has not been tested with older
 distributions.
@@ -23,6 +27,15 @@ this output:
 $ python extractor.py -V
 > PDF Text Extractor and Parser, aka The Genizer version 0.1
 ```
+
+To use Spacy, you will first have to download a model, so run this command:
+
+```
+python -m spacy download en_core_web_sm
+```
+
+If you encounter any installation problems regarding Spacy, please follow their
+[instructions](https://spacy.io/usage).
 
 ## Usage
 

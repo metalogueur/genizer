@@ -1,6 +1,7 @@
 # Folders to ignore
 .idea/
 .ipynb_checkpoints/
+bibliography/
 chapter_01/
 chapter_02/
 chapter_03/
